@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React, { Component } from 'react';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
@@ -6,11 +6,14 @@ class Header extends Component {
 
     constructor(props) {
         super(props);
-
         this.toggleNav = this.toggleNav.bind(this);
         this.state = {
-          isNavOpen: false
+            //keeps track of nav collapse
+            isNavOpen: false,
+            //keeps track of if Modal is open
+            isModalOpen: false
         };
+        this.toggleNav = this.toggleNav.bind(this);
     }
 
     toggleNav() {
@@ -27,6 +30,7 @@ class Header extends Component {
                         <div className="row">
                             <div className="col">
                                 <h1>M Films</h1>
+                                <h2>Original and compelling</h2>
                             </div>
                         </div>
                     </div>
@@ -44,23 +48,24 @@ class Header extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/directory">
-                                        <i className="fa fa-list fa-lg" /> Directory
+                                    <NavLink className="nav-link" to="/credits">
+                                        <i className="fa fa-address-card fa-lg" /> Credits
                                     </NavLink>
                                 </NavItem>
-                                
                                 <NavItem>
                                     <NavLink className="nav-link" to="/contact">
                                         <i className="fa fa-address-card fa-lg" /> Contact Us
                                     </NavLink>
                                 </NavItem>
+
                             </Nav>
                         </Collapse>
                     </div>
                 </Navbar>
             </React.Fragment>
-        );
-    }
+        )
+    };
 }
+
 
 export default Header;

@@ -37,6 +37,16 @@ export const ACTINGCREDITS = [
         featured: false,
         role: 'Sokrates',
         date: 2018,
-        description:
+        description: 'Set in 431 BC during the Pelopenesian War, play as either a male or female mercenary as you embark on your own epic odyssey to become a legendary Spartan hero in a world where every choice matters.',
+    },
+    {
+        id: 4,
+        name:"V/H/S/94",
+        image: "/assets/images/breadcrumb-trail.jpg",
+        genres: 'Action/Adventure/Fantasy/Sci-Fi',
+        featured: false,
+        role: 'Sokrates',
+        date: 2018,
+        description: 'Set in 431 BC during the Pelopenesian War, play as either a male or female mercenary as you embark on your own epic odyssey to become a legendary Spartan hero in a world where every choice matters.',
     }
 ];

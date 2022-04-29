@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer(props) {
+function Footer() {
     return (
         <footer className="site-footer">
             <div className="container">
@@ -9,7 +9,7 @@ function Footer(props) {
                         <h5>Links</h5>
                         <ul className="list-unstyled">
                             <li><a href="/home">Home</a></li>
-                            <li><a href="/directory">Directory</a></li>
+                            <li><a href="/credits">Credits</a></li>
                             <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
