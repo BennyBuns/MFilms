@@ -22,7 +22,7 @@ function Footer() {
                     </div>
                     <div className="col-sm-4 text-center">
                         <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                        <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
+                        <a role="button" className="btn btn-link" href="13matmor@gmail.com"><i className="fa fa-envelope-o" /> 13matmor@gmail.com</a>
                     </div>
                 </div>
             </div>
