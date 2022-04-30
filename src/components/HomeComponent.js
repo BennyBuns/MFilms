@@ -14,7 +14,7 @@ function Home() {
                     <Card className="bg-dark text-white absolute" >
                         <CardBody>
                             <CardTitle>Daniel Matmor</CardTitle>
-                            <CardText>anyting you want here.</CardText>
+                            <CardText>Anything you want here.</CardText>
                         </CardBody>
                     </Card>
                 </Col>
