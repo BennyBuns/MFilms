@@ -22,17 +22,9 @@ class Contact extends Component {
                 </div>
 
                 <div className="row row-content align-items-center">
-                    <div className="col-sm-4">
-                        <h5>Our Address</h5>
-                        <address>
-                            1 Nucamp Way<br />
-                            Seattle, WA 98001<br />
-                            U.S.A.
-                        </address>
-                    </div>
                     <div className="col">
-                        <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                        <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
+                        <a role="button" className="btn btn-link" href="tel:+16478330256"><i className="fa fa-phone" /> 1-647-833-0256</a><br />
+                        <a role="button" className="btn btn-link" href="mailto:13matmor@gmail.com"><i className="fa fa-envelope-o" /> 13matmor@gmail.com</a>
                     </div>
                 </div>
             </div>
